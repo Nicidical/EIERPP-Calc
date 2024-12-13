@@ -83,7 +83,7 @@ var SS_PATCH = {};
 var REDUX_PATCH = {
     'Bulbasaur': {
         id: 1,
-        bs: { hp: 45, at: 49, df: 49, sa: 65, sd: 65, sp: 45 },
+        bs: { hp: 47, at: 49, df: 49, sa: 65, sd: 65, sp: 45 },
         abilities: ['Chloroplast', 'Pastel Veil', 'Chlorophyll'],
         innates: ['Overgrow', 'Thick Fat', 'Poison Absorb'],
         nfe: true,
