@@ -1,0 +1,6 @@
+- Remove all trainers
+- Change abilities and base stats of Pokemon to match 2.2
+- Make it so that EVs are auto set to 0 and natures are auto set to Hardy
+- Make it so that only the 8th roll is shown
+- Ensure that a Pokemon can never have duplicate types factored into damage calculations
+- Change names of stuff so it won't look too bad
