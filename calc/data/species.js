@@ -4589,7 +4589,7 @@ var REDUX_PATCH = {
         },
         'Snover': {
             id: 459,
-            bs: { hp: 60, at: 62, df: 50, sa: 62, sd: 60, sp: 40 },
+            bs: { hp: 60, at: 72, df: 50, sa: 72, sd: 60, sp: 40 },
             abilities: ['Snow Warning', 'Whiteout', 'Mountaineer'],
             innates: ['Ice Body', 'Snow Cloak', 'Permafrost'],
             nfe: true,
@@ -4932,7 +4932,7 @@ var REDUX_PATCH = {
         },
         'Snivy': {
             id: 495,
-            bs: { hp: 45, at: 45, df: 55, sa: 45, sd: 55, sp: 63 },
+            bs: { hp: 47, at: 45, df: 60, sa: 45, sd: 60, sp: 63 },
             abilities: ['Chloroplast', 'Opportunist', 'Contrary'],
             innates: ['Overgrow', 'Shed Skin', 'Chlorophyll'],
             nfe: true,
@@ -4942,7 +4942,7 @@ var REDUX_PATCH = {
         },
         'Servine': {
             id: 496,
-            bs: { hp: 60, at: 60, df: 75, sa: 60, sd: 75, sp: 83 },
+            bs: { hp: 67, at: 60, df: 75, sa: 60, sd: 75, sp: 83 },
             abilities: ['Chloroplast', 'Opportunist', 'Contrary'],
             innates: ['Overgrow', 'Shed Skin', 'Chlorophyll'],
             nfe: true,
@@ -4952,7 +4952,7 @@ var REDUX_PATCH = {
         },
         'Serperior': {
             id: 497,
-            bs: { hp: 83, at: 75, df: 95, sa: 75, sd: 95, sp: 113 },
+            bs: { hp: 83, at: 74, df: 95, sa: 75, sd: 95, sp: 113 },
             abilities: ['Intimidate', 'Multiscale', 'Contrary'],
             innates: ['Overgrow', 'Shed Skin', 'Chloroplast'],
             weightkg: 630,
@@ -4961,7 +4961,7 @@ var REDUX_PATCH = {
         },
         'Tepig': {
             id: 498,
-            bs: { hp: 65, at: 63, df: 45, sa: 45, sd: 45, sp: 45 },
+            bs: { hp: 71, at: 69, df: 45, sa: 45, sd: 45, sp: 45 },
             abilities: ['Reckless', 'Avenger', 'Flame Body'],
             innates: ['Blaze', 'Thick Fat', 'Gluttony'],
             nfe: true,
@@ -4971,7 +4971,7 @@ var REDUX_PATCH = {
         },
         'Pignite': {
             id: 499,
-            bs: { hp: 90, at: 93, df: 55, sa: 70, sd: 55, sp: 55 },
+            bs: { hp: 92, at: 93, df: 55, sa: 70, sd: 55, sp: 55 },
             abilities: ['Reckless', 'Avenger', 'Flame Body'],
             innates: ['Blaze', 'Thick Fat', 'Gluttony'],
             nfe: true,
@@ -4990,7 +4990,7 @@ var REDUX_PATCH = {
         },
         'Oshawott': {
             id: 501,
-            bs: { hp: 55, at: 55, df: 45, sa: 63, sd: 45, sp: 45 },
+            bs: { hp: 59, at: 63, df: 45, sa: 63, sd: 45, sp: 45 },
             abilities: ['Swift Swim', 'Violent Rush', 'Fatal Precision'],
             innates: ['Torrent', 'Shell Armor', 'Keen Edge'],
             nfe: true,
@@ -5000,7 +5000,7 @@ var REDUX_PATCH = {
         },
         'Dewott': {
             id: 502,
-            bs: { hp: 75, at: 75, df: 60, sa: 83, sd: 60, sp: 60 },
+            bs: { hp: 75, at: 82, df: 60, sa: 83, sd: 60, sp: 60 },
             abilities: ['Swift Swim', 'Violent Rush', 'Fatal Precision'],
             innates: ['Torrent', 'Shell Armor', 'Keen Edge'],
             nfe: true,
@@ -5020,9 +5020,9 @@ var REDUX_PATCH = {
         },
         'Patrat': {
             id: 504,
-            bs: { hp: 45, at: 55, df: 39, sa: 35, sd: 39, sp: 42 },
-            abilities: ['Run Away', 'Quick Feet', '-------'],
-            innates: ['Keen Eye', 'Analytic', '-------'],
+            bs: { hp: 45, at: 65, df: 39, sa: 35, sd: 39, sp: 72 },
+            abilities: ['Run Away', 'Technician', 'Analytic'],
+            innates: ['Keen Eye', 'Ambush', 'Adaptability'],
             nfe: true,
             weightkg: 116,
             types: ['Normal'],
@@ -5031,7 +5031,7 @@ var REDUX_PATCH = {
         'Watchog': {
             id: 505,
             bs: { hp: 75, at: 95, df: 79, sa: 60, sd: 79, sp: 107 },
-            abilities: ['Keen Eye', 'Quick Feet', 'Field Explorer'],
+            abilities: ['Keen Eye', 'Tinted Lens', 'Field Explorer'],
             innates: ['Stakeout', 'Analytic', 'Illuminate'],
             weightkg: 270,
             types: ['Normal'],
@@ -5039,9 +5039,9 @@ var REDUX_PATCH = {
         },
         'Lillipup': {
             id: 506,
-            bs: { hp: 45, at: 60, df: 45, sa: 25, sd: 45, sp: 55 },
+            bs: { hp: 45, at: 70, df: 45, sa: 25, sd: 45, sp: 65 },
             abilities: ['Vital Spirit', 'Pickup', 'Run Away'],
-            innates: ['Overcoat', '-------', '-------'],
+            innates: ['Fluffy', 'Overcoat', 'Guard Dog'],
             nfe: true,
             weightkg: 41,
             types: ['Normal'],
