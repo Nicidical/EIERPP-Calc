@@ -1203,7 +1203,8 @@ function calculateAtModsSMSSSV(gen, attacker, defender, move, field, desc) {
         desc.isFlowerGiftAttacker = true;
     }
     if ((attacker.hasAbility('Guts') && attacker.status && move.category === 'Physical') ||
-        (move.category === 'Special' && attacker.hasAbilityActive('Plus', 'Minus'))) {
+        (move.category === 'Special' && attacker.hasAbilityActive('Plus', 'Minus')) ||
+        (attacker.hasAbility('Determination') && attacker.status && move.category === 'Special')) {
         atMods.push(6144);
         desc.attackerAbility = (0, util_2.addSpacedStr)(desc.attackerAbility, attacker.descAbility);
     }

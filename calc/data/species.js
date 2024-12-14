@@ -5049,7 +5049,7 @@ var REDUX_PATCH = {
         },
         'Herdier': {
             id: 507,
-            bs: { hp: 65, at: 80, df: 65, sa: 35, sd: 65, sp: 60 },
+            bs: { hp: 65, at: 90, df: 65, sa: 35, sd: 65, sp: 70 },
             abilities: ['Intimidate', 'Sand Rush', 'Scrappy'],
             innates: ['Overcoat', 'Fur Coat', 'Filter'],
             nfe: true,
@@ -5068,9 +5068,9 @@ var REDUX_PATCH = {
         },
         'Purrloin': {
             id: 509,
-            bs: { hp: 41, at: 50, df: 37, sa: 50, sd: 37, sp: 66 },
+            bs: { hp: 41, at: 75, df: 37, sa: 50, sd: 37, sp: 71 },
             abilities: ['Unburden', 'Sniper', 'Moody'],
-            innates: ['Limber', 'Prankster', '-------'],
+            innates: ['Prankster', 'Limber', 'Ambush'],
             nfe: true,
             weightkg: 101,
             types: ['Dark'],
@@ -5087,9 +5087,9 @@ var REDUX_PATCH = {
         },
         'Pansage': {
             id: 511,
-            bs: { hp: 50, at: 53, df: 48, sa: 53, sd: 48, sp: 64 },
-            abilities: ['Sap Sipper', '-------', 'Guts'],
-            innates: ['Overgrow', 'Prankster', '-------'],
+            bs: { hp: 50, at: 62, df: 48, sa: 62, sd: 48, sp: 67 },
+            abilities: ['Hustle', 'Sage Power', 'Determination'],
+            innates: ['Overgrow', 'Fertilize', 'Gluttony'],
             otherFormes: ['Pansage Redux'],
             nfe: true,
             weightkg: 105,
