@@ -1371,7 +1371,8 @@ function calculateDfModsSMSSSV(gen, attacker, defender, move, field, desc, isCri
         dfMods.push(4505);
     }
     if ((defender.hasAbility('Immunity') && move.type == 'Poison') ||
-        (defender.hasAbility('Water Compaction') && move.type == 'Water')) {
+        (defender.hasAbility('Water Compaction') && move.type == 'Water') ||
+        (defender.hasAbility('Well Baked Body') && move.type == 'Fire')) {
         dfMods.push(8192);
     }
     if (defender.hasAbility('Marvel Scale') && defender.status && hitsPhysical) {
