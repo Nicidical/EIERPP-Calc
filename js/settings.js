@@ -122,7 +122,7 @@ $(document).ready(function () {
             {
                 selectors: [$('#field-reset-off'),$('#field-reset-on')],
                 event: "change",
-                default: 1,
+                default: 0,
                 name: "field-reset",
                 func: function(){
                     localStorage.setItem("field-reset", +$('#field-reset-on').prop("checked"));
@@ -131,7 +131,7 @@ $(document).ready(function () {
             {
                 selectors: [$('#result-color-off'),$('#result-color-on')],
                 event: "change",
-                default: 1,
+                default: 0,
                 name: "result-color",
                 func: function(){
                     localStorage.setItem("result-color", +$('#result-color-on').prop("checked"));
@@ -151,7 +151,7 @@ $(document).ready(function () {
             {
                 selectors: [$('#p-s-specifier-off'),$('#p-s-specifier-on')],
                 event: "change",
-                default: 1,
+                default: 0,
                 name: "p-s-spe",
                 func: function(){
                     localStorage.setItem("p-s-spe", +$('#p-s-specifier-on').prop("checked"))
@@ -171,7 +171,7 @@ $(document).ready(function () {
             {
                 selectors: [$('#all-abis-off'),$('#all-abis-on')],
                 event: "change",
-                default: 0,
+                default: 1,
                 name: "all-abis",
                 func: function(){
                     if (+$('#all-abis-on').prop("checked")) {
@@ -186,7 +186,7 @@ $(document).ready(function () {
             {
                 selectors: [$('#no-ev-off'),$('#no-ev-on')],
                 event: "change",
-                default: 1,
+                default: 0,
                 name: "no-ev",
                 func: function(){
                     localStorage.setItem("no-ev", +$('#no-ev-on').prop("checked"))
