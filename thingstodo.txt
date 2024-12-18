@@ -1,5 +1,5 @@
 - Remove all trainers
-- Change abilities and base stats of Pokemon to match 2.2 (IN PROGRESS)
+- Change abilities and base stats of Pokemon to match 2.2 (DONE)
 - Make it so that EVs are auto set to 0 and natures are auto set to Hardy, level is automatically set to 100, and all ivs are automatically set to 31
 - Make it so that only the 8th roll is shown
 - Ensure that a Pokemon can never have duplicate types factored into damage calculations
