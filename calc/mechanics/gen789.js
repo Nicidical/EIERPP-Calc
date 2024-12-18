@@ -1741,7 +1741,7 @@ function calcContribution(gen, attacker, move, field) {
 function getPriorityAdditionnal(attacker, move, defender) {
     var add = 0;
     if (attacker.hasAbility('Triage') && move.drain) {
-        add += 1;
+        add += 3;
     }
     if (attacker.hasAbility('Gale Wings') && move.hasType('Flying') &&
         attacker.curHP() === attacker.maxHP()) {
