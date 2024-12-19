@@ -46,6 +46,7 @@ exports.__esModule = true;
 
 var util_1 = require("../util");
 exports.NATURES = {
+    Hardy: ['atk', 'atk'],
     Adamant: ['atk', 'spa'],
     Bashful: ['spa', 'spa'],
     Bold: ['def', 'atk'],
@@ -54,7 +55,6 @@ exports.NATURES = {
     Careful: ['spd', 'spa'],
     Docile: ['def', 'def'],
     Gentle: ['spd', 'def'],
-    Hardy: ['atk', 'atk'],
     Hasty: ['spe', 'def'],
     Impish: ['def', 'spa'],
     Jolly: ['spe', 'spa'],
