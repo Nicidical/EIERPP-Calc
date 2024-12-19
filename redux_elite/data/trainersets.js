@@ -1,1 +1,1 @@
-var TRAINER_DEX =[{"trn": "Player", "mons": []}]
+var TRAINER_DEX =[{"trn": "Player", "mons": []}, {"trn": "Abomasnow", "mons": [{"level": 100, "species": "Abomasnow", "item": "Light Clay", "ability": 1, "ivs": [31, 31, 31, 31, 31, 31], "evs": [0, 0, 0, 0, 0, 0], "nature": "Hardy", "moves": ["Swords Dance", "Wood Hammer", "Ice Hammer", "Earthquake"]}]}]

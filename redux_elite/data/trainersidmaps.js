@@ -1,1 +1,1 @@
-var TRAINER_IDMAP =["Player"]
+var TRAINER_IDMAP =["Player", "Abomasnow"]
