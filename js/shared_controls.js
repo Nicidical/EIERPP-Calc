@@ -30,7 +30,7 @@ function createPokemon(pokeInfo) {
 			innatesOn: [false,false,false],
 			status: CALC_STATUS[status],
 			item: set.item && typeof set.item !== "undefined" && (set.item === "Eviolite" || set.item.indexOf("ite") < 0) ? set.item : "",
-			nature: set.nature,
+			nature: "Hardy",
 			ivs: ivs,
 			evs: evs,
 			moves: pokemonMoves,
