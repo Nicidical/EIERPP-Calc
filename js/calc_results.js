@@ -91,15 +91,16 @@ class HalfCalcResult{
     }
     rollToText(rolls){
         if (!rolls.length) return "" + rolls
-        var textRolls = "Possible damage amounts: ("
-        for (const index in rolls){
+        var textRolls = "Possible damage amounts:"
+        textRolls += rolls[7]
+        /*for (const index in rolls){
             textRolls += rolls[index]
             if (+index == rolls.length -1) continue
             textRolls += ",\u00A0"
             if (!((+index + 1) % 4)) textRolls += "\u00A0\u00A0"
             if (!((+index + 1) % 8)) textRolls += "\u00A0\u00A0"
-        }
-        return textRolls + ")"
+        }*/
+        return textRolls
     }
 }
 

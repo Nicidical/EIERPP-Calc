@@ -46,7 +46,31 @@ exports.__esModule = true;
 
 var util_1 = require("../util");
 exports.NATURES = {
-    Hardy: ['atk', 'atk']
+    Adamant: ['atk', 'atk'],
+    Bashful: ['spa', 'spa'],
+    Bold: ['def', 'atk'],
+    Brave: ['atk', 'spe'],
+    Calm: ['spd', 'atk'],
+    Careful: ['spd', 'spa'],
+    Docile: ['def', 'def'],
+    Gentle: ['spd', 'def'],
+    Hasty: ['spe', 'def'],
+    Hardy: ['atk', 'atk'],
+    Impish: ['def', 'spa'],
+    Jolly: ['spe', 'spa'],
+    Lax: ['def', 'spd'],
+    Lonely: ['atk', 'def'],
+    Mild: ['spa', 'def'],
+    Modest: ['spa', 'atk'],
+    Naive: ['spe', 'spd'],
+    Naughty: ['atk', 'spd'],
+    Quiet: ['spa', 'spe'],
+    Quirky: ['spd', 'spd'],
+    Rash: ['spa', 'spd'],
+    Relaxed: ['def', 'spe'],
+    Sassy: ['spd', 'spe'],
+    Serious: ['spe', 'spe'],
+    Timid: ['spe', 'atk']
 };
 var Natures = (function () {
     function Natures() {
