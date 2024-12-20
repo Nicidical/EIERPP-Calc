@@ -91,7 +91,7 @@ class HalfCalcResult{
     }
     rollToText(rolls){
         if (!rolls.length) return "" + rolls
-        var textRolls = "Possible damage amounts:"
+        var textRolls = "Possible damage amounts: "
         textRolls += rolls[7]
         /*for (const index in rolls){
             textRolls += rolls[index]
