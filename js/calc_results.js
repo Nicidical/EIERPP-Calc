@@ -61,6 +61,9 @@ class HalfCalcResult{
     get header(){return this.field_header.text()}
     set header(val){this.field_header.text(val)}
     display(results, rolls, prio){
+        console.log(results)
+        console.log(rolls)
+        console.log(prio)
         this.attacker = results[0].attacker
         this.defender = results[0].defender
         this.move = results[0].move
