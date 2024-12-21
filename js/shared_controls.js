@@ -23,7 +23,7 @@ function createPokemon(pokeInfo) {
 		if ($('#cd-intimidate').prop("checked") && pokemon.ability === "Intimidate") abiOn = true;
 		if ($('#cd-guts').prop("checked") && pokemon.ability === "Guts") status = "Burned";
 		return new calc.Pokemon(gen, pokemonName, {
-			level: set.level,
+			level: 100,
 			ability: set.ability,
 			innates: set.innates,
 			abilityOn: abiOn,
