@@ -23,17 +23,15 @@ var util_2 = require("./mechanics/util");
 function display(gen, attacker, defender, move, field, damage, rawDesc, notation, err) {
     if (notation === void 0) { notation = '%'; }
     if (err === void 0) { err = true; }
-    var _a = __read((0, result_1.damageRange)(damage), 2), minDamage = _a[0], maxDamage = _a[1];
-    console.log(_a)
-    var min = (typeof minDamage === 'number' ? minDamage : minDamage[0] + minDamage[1]) * move.hits;
-    var max = (typeof maxDamage === 'number' ? maxDamage : maxDamage[0] + maxDamage[1]) * move.hits;
-    var minDisplay = toDisplay(notation, min, defender.maxHP());
-    var maxDisplay = toDisplay(notation, max, defender.maxHP());
+    var val = (typeof damage[7] === 'number' ? damage[7] : damage[7][0] + damage[7][1]) * move.hits;
+    var valDisplay = toDisplay(notation, val, defender.maxHP());
     var desc = buildDescription(rawDesc, attacker, defender);
-    var damageText = "".concat(min, "-").concat(max, " (").concat(minDisplay, " - ").concat(maxDisplay).concat(notation, ")");
+    var damageText = "".concat(val, " (").concat(valDisplay).concat(notation, ")");
     if (move.category === 'Status' && !move.named('Nature Power'))
         return "".concat(desc, ": ").concat(damageText);
-    var koChanceText = getKOChance(gen, attacker, defender, move, field, damage, err).text;
+    var newDamage = []
+    for (var i = 0; i < damage.length; i++) { newDamage.push(damage[7]); }
+    var koChanceText = getKOChance(gen, attacker, defender, move, field, newDamage, err).text
     return koChanceText ? "".concat(desc, ": ").concat(damageText, " -- ").concat(koChanceText) : "".concat(desc, ": ").concat(damageText);
 }
 exports.display = display;
